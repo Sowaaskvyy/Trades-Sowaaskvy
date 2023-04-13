@@ -1,0 +1,26 @@
+name: wymiana-plugin
+version: 1.0.0
+main: wymiana.js
+description: Plugin umożliwiający graczom wymianę z innymi graczami na serwerze z wykorzystaniem GUI.
+commands:
+  wymiana:
+    description: Komenda do wymiany z innymi graczami.
+    usage: /wymiana <gracz>
+    permission: wymiana.use
+  wymianagui:
+    description: Komenda do otwierania GUI wymiany.
+    usage: /wymianagui
+    permission: wymiana.use
+  wymianadolacz:
+    description: Komenda do dołączania do wymiany.
+    usage: /wymianadolacz
+    permission: wymiana.use
+  wymianaoferuj:
+    description: Komenda do oferowania przedmiotów w wymianie.
+    usage: /wymianaoferuj
+    permission: wymiana.use
+  wymianaprzyciski:
+    description: Komenda do obsługi przycisków GUI wymiany.
+    usage: /wymianaprzyciski
+    permission: wymiana.use
+#author Sowaaskvyy_
